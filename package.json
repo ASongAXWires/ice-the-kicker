@@ -4,15 +4,23 @@
   "description": "Throwing errors for unknown positions",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint --format codeframe .",
-    "test": "./node_modules/.bin/mocha tests.js"
+    "lint": "eslint --format codeframe .",
+    "test": "mocha tests.js"
   },
   "author": "Stack Education",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
-    "eslint": "^6.3.0",
+    "eslint": "^6.4.0",
     "mocha": "^6.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASongAXWires/ice-the-kicker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ASongAXWires/ice-the-kicker/issues"
+  },
+  "homepage": "https://github.com/ASongAXWires/ice-the-kicker#readme"
 }
